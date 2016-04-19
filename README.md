@@ -1,3 +1,6 @@
+# Docker Playground
+
+```
 docker-machine create --driver virtualbox default
 docker-machine ls
 docker-machine stop default
@@ -9,3 +12,4 @@ docker run -it --rm busybox:latest
 docker run -d -p 8000:80 nginx
 docker-machine ip default
 docker ps
+```
